@@ -56,7 +56,7 @@
 }
 
 .news h2 {
-  border: 1px solid #000000;
+  /*border: 1px solid #000000;*/
   color: var(--color-grey);
   font-size: 24px;
   font-weight: 700;
@@ -75,7 +75,7 @@
 }
 
 .news h3 {
-  border: 1px solid #000000;
+  /*border: 1px solid #000000;*/
   color: var(--color-green);
   font-size: 16px;
   font-weight: 700;
@@ -116,13 +116,60 @@
   padding-bottom: 3px;
 }
 
-/*Parei aqui. Estilização da Class read-more ainda não está funcionando*/
-
-.read-more h3 {
+.news h4 {
   color: var(--color-pink);
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
+  padding-top: 3px;
+  padding-bottom: 6px;
+}
+
+.news .load-container {
+  background-color: var(--color-pink);
+}
+
+.load-container p {
+  color: var(--color-white);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/*Section News pronta e estilizada*/
+
+.games {
+  background-color: var(--color-light-grey);
+  width: 100%;
+}
+
+/*Parei aqui. Tentando alinhar os Div ao centro*/
+
+.games div{
+  max-width: 300px;
+  padding: 0 auto;
+  align-items: center;
+}
+
+.games h2 {
+  color: var(--color-green);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 28px;
+}
+
+.games img {
+  width: 300px;
+  height: 168.54px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px 8px 0px 0px;
 }
