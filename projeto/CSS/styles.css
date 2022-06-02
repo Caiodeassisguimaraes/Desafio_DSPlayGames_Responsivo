@@ -53,6 +53,7 @@
 .news {
   background-color: var(--color-white);
   width: 100%;
+  align-items: center;
 }
 
 .news h2 {
@@ -68,10 +69,16 @@
 
 .news div {
   background-color: var(--color-light-grey);
+  max-width: 990px;
   border-radius: 8px;
-  margin: 0px 10px 30px 10px;
+  margin: 0 auto;
+  /*margin-left: 10px;*/
+  margin-bottom: 30px;
+  /*margin-right: 10px;*/
+  /*margin: 0px 10px 30px 10px;*/
   padding: 16px 12px 12px 12px;
   box-shadow: 0px 1px 4px var(--color-dark-grey);
+
 }
 
 .news h3 {
@@ -129,6 +136,12 @@
 
 .news .load-container {
   background-color: var(--color-pink);
+  width: 100%;
+  max-width: 244px;
+  height: 100%;
+  max-height: 67px;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .load-container p {
@@ -144,129 +157,58 @@
 
 .games {
   background-color: var(--color-light-grey);
-  width: 100%;
-}
-
-/*.games div{
-  max-width: 300px;
-  margin: 0 auto;
   align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
-}*/
+  padding-top: 40px;
+}
 
 .games h2 {
+  border: 1px solid #ff0000;
+  width: 100%;
+  min-width: 75px;
+  max-width: 112px;
+  height: 100%;
+  min-height: 36px;
+  max-height: 54px;
+  margin: 0 auto;
   color: var(--color-green);
-  font-size: 24px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0em;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 28px;
+  margin-bottom: 28px;
 }
 
-/*.games img {
-  border: 1px solid #000000;
-  width: 300px;
-  height: 168.54px;
-  left: 0px;
-  top: 0px;
-  border-radius: 8px 8px 0px 0px;
-  box-shadow: 0px 0px 4px var(--color-dark-grey);
-}*/
-
-/*.card-description{
-  border: 1px solid #000000;
-  background-color: var(--color-white);
-  width: 100%;
-  max-width: 300px;
-  margin: 0 auto;
-  align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
-}*/
-
 .card {
-  border: 5 px solid #ff0000;
-  background-color: var(--color-white);
-  width: 100%;
-  max-width: 300px;
-  height: 326px;
-  margin: 0px 10px 30px 10px;
-  padding: 0px;
-  border-radius: 8px;
-  box-shadow: 0px 0px 4px var(--color-dark-grey);
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 75px;
+  max-width: 112px;
+  margin: 0 auto;
+  padding-bottom: 27px;
+  /*margin: 28px 10px 10px 27px;*/
 }
 
 .card img {
+  /*border: 1px solid #ff0000;*/
   border-radius: 8px 8px 0px 0px;
   width: 100%;
   min-width: 300px;
   max-width: 300px;
-  height: 168.54px;
-  margin: 0 auto;
-  left: 0px;
-  top: 0px;
+  height: 100%;
+  min-height: 168.54px;
+  max-height: 168.54px;
+  /*box-shadow: 0px 1px 4px var(--color-dark-grey);*/
+  /*padding: 28px 10px 0px 10px;*/
 }
 
 .card-description {
-  border: 1px solid #ff0000;
-  /*flex-direction: column;
-  justify-content: center;
-  align-items: center;*/
-}
-
-/*Parei aqui tetando fazer o alinhamento da descrição do card*/
-
-.card-description {
-  text-align: center;
-}
-
-.card-description h4 {
-  color: var(--color-grey);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
-}
-
-.console-game {
-  display: flex;
-}
-
-.console-game h5 {
-  color: var(--color-green);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.console-game p{
-  color: var(--color-dark-grey);
-}
-
-.grade {
-  border: 1px solid #383838;
-  color: var(--color-green);
-  width: 52px;
-  height: 54px;
-  left: 134px;
-  top: 1684px;
-  /*align-items: center;*/
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 54px;
-  /* identical to box height
-
-  display: flex;
-  align-items: center;
-  text-align: center;*/
+  /*border: 1px solid #ff0000;*/
+  background-color: var(--color-white);
+  width: 100%;
+  min-width: 300px;
+  max-width: 300px;
+  height: 100%;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: 0px 1px 4px var(--color-dark-grey);
 }
