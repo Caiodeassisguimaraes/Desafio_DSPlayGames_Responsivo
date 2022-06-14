@@ -318,6 +318,8 @@
   background: var(--color-white);
   outline: 0, 1px solid var(--color-grey);
   border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .form-input-email {
@@ -331,21 +333,69 @@
   background: var(--color-white);
   outline: 0, 1px solid var(--color-grey);
   border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+::placeholder {
+  color: #c4c4c4;
 }
 
 .form-container label {
-  height: 24px;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
   color: var(--color-grey);
-  margin-left: 10px;
 }
 
-#ctrl-level {
+.form-radio {
+  /*border: 1px solid #ff0000;*/
   width: 100%;
   padding: 0px 12px 0px 8px;
 }
+
+.form-checkbox {
+  /*border: 1px solid #ff0000;*/
+  width: 100%;
+  padding: 36px 12px 48px 8px;
+}
+
+.subscribe-send {
+  padding: 0px 30px 0px 24px;
+}
+
+.subscribe-send input {
+  background-color: var(--color-pink);
+  width: 244px;
+  height: 67px;
+  margin-bottom: 20px;
+  color: var(--color-white);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+
+.subscribe-reset {
+  padding: 0px 30px 0px 24px;
+}
+
+.subscribe-reset input {
+  background-color: var(--color-white);
+  width: 244px;
+  height: 67px;
+  margin-bottom: 20px;
+  color: var(--color-pink);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 8px;
+  border-color: var(--color-pink);
+}
+
