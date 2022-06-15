@@ -418,6 +418,9 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 a, a:hover {
@@ -425,10 +428,22 @@ a, a:hover {
   color: unset;
 }
 
-footer div {
+.container-footer {
+  /*border: 1px solid #ff0000;*/
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 28px 0px 30.32px 0px;
+}
+
+.container-footer div {
   width: 100%;
   margin: 0 auto;
-  align-items: center;
+  text-align: center;
+}
+
+footer p {
+  padding: 37.32px 0px 37px 0px;
 }
 
 
