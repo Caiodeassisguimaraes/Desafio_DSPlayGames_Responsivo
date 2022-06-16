@@ -17,6 +17,8 @@
   padding: 0;
 }
 
+/*Header*/
+
 .header-container {
   background: var(--color-green);
   width: 100%;
@@ -48,8 +50,11 @@
   color: var(--color-white);
 }
 
-/*Header pronto e estilizado*/
+/*Header*/
 
+/*Main*/
+
+/*Section class="mews"*/
 .news {
   background-color: var(--color-white);
   /*width: 100%;*/
@@ -78,7 +83,11 @@
   /*margin-right: 10px;*/
   /*margin: 0px 10px 30px 10px;*/
   padding: 16px 12px 12px 12px;
-  box-shadow: 0px 1px 4px var(--color-dark-grey);
+  /*box-shadow: 0px 1px 4px var(--color-dark-grey);*/
+}
+
+.container-news {
+  box-shadow: 0px 1px 4px var(--color-dark-grey); 
 }
 
 .news h3 {
@@ -134,6 +143,11 @@
   padding-bottom: 6px;
 }
 
+.news h4:hover {
+  cursor: pointer;
+  text-decoration: underline; 
+}
+
 .news .load-container {
   background-color: var(--color-pink);
   width: 100%;
@@ -153,8 +167,14 @@
   text-align: center;
 }
 
-/*Section News pronta e estilizada*/
+.load-container:hover{
+  cursor: pointer;
+  box-shadow: 0px 1px 4px var(--color-dark-grey);
+}
 
+/*Section class="mews"*/
+
+/*Section class="games"*/
 .games {
   background-color: var(--color-light-grey);
   align-items: center;
@@ -265,6 +285,9 @@
   line-height: 54px;
 }
 
+/*Section class="games"*/
+
+/*Section class="subscribe"*/
 .subscribe {
   background-color: var(--color-white);
   align-items: center;
@@ -324,6 +347,11 @@
   border-radius: 4px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.buttons-submit-reset input:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 4px var(--color-dark-grey);
 }
 
 .form-input-email {
@@ -407,9 +435,13 @@
   text-align: center;
   border-radius: 8px;
   border-color: var(--color-pink);
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
 }
+/*Section class="subscribe"*/
 
+/*Main*/
+
+/*Footer*/
 footer {
   background-color: var(--color-dark-grey);
   width: 100%;
@@ -423,9 +455,14 @@ footer {
   justify-content: center;
 }
 
-a, a:hover {
+a {
   text-decoration: none;
   color: unset;
+}
+
+a:hover {
+  font-weight: 700;
+  /*text-decoration: underline;*/
 }
 
 .container-footer {
