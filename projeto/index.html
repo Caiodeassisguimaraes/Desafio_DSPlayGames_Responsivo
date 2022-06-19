@@ -10,21 +10,26 @@
   <body>
     <header class="header-container">
       <nav class="nav-container">
-        <a href="#">DSPlayGames</a>
-        <!--<div>-->
+        <a class="title" href="#">DSPlayGames</a>
+        <div class="menu-items">
+          <ul class="shortcut-sections">
+            <li><a href="#news">Notícias</a></li>
+            <li><a href="#games">Jogos</a></li>
+            <li><a href="#subscribe">Inscreva-se</a></li>
+          </ul>
         <img src="/img/Profile Image.svg" alt="Perfil" />
-        <!--</div>-->
+        </div>
       </nav>
     </header>
     <main>
-      <section class="news">
+      <section id="news">
         <h2>Últimas notícias</h2>
         <article class="container-news">
           <h3>Título principa da notícia</h3>
-          <p class="synopsis">
+          <h6 class="synopsis">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             vitae ducimus aperiam.
-          </p>
+          </h6>
           <p class="date">22/05/2022</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
@@ -49,10 +54,10 @@
         </article>
         <article class="container-news">
           <h3>Título principa da notícia</h3>
-          <p class="synopsis">
+          <h6 class="synopsis">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             vitae ducimus aperiam.
-          </p>
+          </h6>
           <p class="date">22/05/2022</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
@@ -80,7 +85,7 @@
         </div>
       </section>
 
-      <section class="games">
+      <section id="games">
         <h2>Jogos</h2>
         <div class="cards-container">
           <div class="card">
@@ -131,7 +136,7 @@
           </div>
         </div>
       </section>
-      <section class="subscribe">
+      <section id="subscribe">
         <h2>Faça sua Inscrição</h2>
         <div class="form-container">
           <form action="obrigado.html">
@@ -150,11 +155,11 @@
                 </div>
                 <div>
                   <input type="radio" name="level" id="ctrl-level-2" />
-                  <label for="ctrl-level-2">Xbox</label>
+                  <label for="ctrl-level-2">Xbox Series S/X</label>
                 </div>
                 <div>
                   <input type="radio" name="level" id="ctrl-level-3" />
-                  <label for="ctrl-level-3">Playstation</label>
+                  <label for="ctrl-level-3">Playstation 5</label>
                 </div>
               </div>
             </div>
@@ -176,20 +181,26 @@
     </main>
     <footer>
       <div class="container-footer">
-        <div>
-          <a href="dsPlayGamesInstagram.html">@dsplaygames</a>
+        <div class="social-media">
+          <div>
+            <a href="dsPlayGamesInstagram.html">@dsplaygames</a>
+          </div>
+          <div>
+            <a href="dsPlayGamesYouTube.html">/dsplaygames</a>
+          </div>
         </div>
-        <div>
-          <a href="dsPlayGamesYouTube.html">/dsplaygames</a>
-        </div>
-        <div>
+
+        <div class="all-rights-reserved">
           <p>DS Play Games Ltda. Todos direitos reservados</p>
         </div>
-        <div>
-          <a href="PrivacyPolicy.html">Políticas de Provacidade</a>
-        </div>
-        <div>
-          <a href="TermsOfUse.html">Termos de Uso</a>
+
+        <div class="legal-disclaimer">
+          <div>
+            <a href="PrivacyPolicy.html">Políticas de Provacidade</a>
+          </div>
+          <div>
+            <a href="TermsOfUse.html">Termos de Uso</a>
+          </div>
         </div>
       </div>
     </footer>
